@@ -16,9 +16,9 @@ https://github.com/ottokart/punctuator2
 # F1 Score
 
 # TODO
-- [] Download Dataset
+- [x] Download Dataset
+- [x] Preprocess
 - [] EDA
-- [] Preprocess
 - [] Build Model
 - [] Measuring Metrics
 - [] Wisdom Server
