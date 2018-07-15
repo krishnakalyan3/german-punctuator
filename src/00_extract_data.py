@@ -11,3 +11,4 @@ with open('data/comtrans/alignment-de-en.txt', 'r', encoding='utf-8', errors='ig
             f_out_en.write(l)
 
         num_lines = (0 if num_lines == 2 else num_lines + 1)
+
