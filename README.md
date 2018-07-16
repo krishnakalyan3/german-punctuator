@@ -24,4 +24,9 @@ F1 Score
 - [ ] Wisdom Server
 - [ ] Update Readme
 - [ ] Create Notebook
-- [ ] Flask Serverless App
+
+# Code
+- [x] Frontend
+- [ ] JS
+- [ ] Backend
+- [ ] AWS
