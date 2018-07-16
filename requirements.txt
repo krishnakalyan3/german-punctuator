@@ -1,4 +1,4 @@
 visdom
 pytorch
 tqdm
-
+numpy

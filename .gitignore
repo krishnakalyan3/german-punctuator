@@ -1,4 +1,5 @@
 data/*
+notebooks/.ipynb_*
 
 # User-specific stuff:
 .idea/**/workspace.xml

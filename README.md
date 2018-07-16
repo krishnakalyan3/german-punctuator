@@ -16,10 +16,12 @@ F1 Score
 # TODO
 - [x] Download Dataset
 - [x] Preprocess
-- [] EDA
-- [] Build Model
-- [] Measuring Metrics
-- [] Wisdom Server
-- [] Update Readme
-- [] Create Notebook
-- [] Flask Serverless App
+- [x] EDA
+- [x] Train / Test / Valid
+- [ ] Code Structure
+- [x] Build Model
+- [ ] Measuring Metrics
+- [ ] Wisdom Server
+- [ ] Update Readme
+- [ ] Create Notebook
+- [ ] Flask Serverless App
