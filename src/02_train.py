@@ -1,21 +1,30 @@
 #!/usr/bin/env python3
 
 import torch
-from model import GruRNN
+import argparse
+from model import CharLSTMModel
+from utils import read_data
 
 # Decide FEAT Vocoab
 # Targat Vocab
 # Check the dims
 
+def train(epochs):
+    pass
 
-def main():
-    input_chars = list(" \nabcdefghijklmnopqrstuvwxyz01234567890")
-    output_chars = [".", ",", "?", ":", "n"]
-
-
-def train():
-    model.train()
 
 
 if __name__ == '__main__':
-    model = GruRNN(40, 2, 5)
+    parser = argparse.ArgumentParser(description='PyTorch CharLSTM Example')
+    parser.add_argument('--cuda', action='store_true',
+                        help='use cuda')
+    parser.add_argument('--batch_size', type=int, default=4)
+    parser.add_argument('--learning_rate', type=float, default=0.01)
+    args = parser.parse_args()
+
+    device = torch.device("cuda" if args.cuda else "cpu")
+    # read_data
+
+    n_chars = 10
+    model = CharLSTMModel(input_size=n_chars, hidden_size=15, output_size=n_chars)
+    optimizer = torch.optim.Adam(model.parameters(), lr=args.learning_rate)
